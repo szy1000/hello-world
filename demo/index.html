@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="col-lg-12 col-md-12 col-sm-12  wrapper">
+  <div class=" wrapper">
   <!-- 导航栏开始 -->
     <div class="row">
       <nav class="navbar navbar-default app-navbar">
@@ -209,7 +209,7 @@
 
     <!--登录表单-->
 
-    <div class="col-lg-12 col-md-12  col-sm-12 row">
+    <div class="row">
       <div class="col-lg-3 col-md-3  col-sm-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 app-motto">
         <dl class="clearfix dl-one">
           <dt><a href="#"><h5>新世界志愿者协议</h5></a></dt>
@@ -237,30 +237,36 @@
           <input placeholder="联系地址：" type="text"/>
           <!--<input class="life" placeholder="联系地址：" type="text"/>-->
           <textarea placeholder="请简单描述梦想的生活:"></textarea>
-          <a class="submit" href="">提交申请</a>
+          <input type="button" value="提交申请">
         </form>
       </div>
     </div>
 
     <!--联系我们-->
-    <div class="col-lg-12 col-md-12  col-sm-12 clearfix app-call">
-      <h3>联系我们</h3>
-      <p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯
-        也可以通过以下任何方式关注我们动态</p>
-      <input class="email" placeholder="someone@email.com" type="text"/>
-      <buttom class="email-sub">提交</buttom>
-      <div class="logo">
-        <span class="fa fa-2x fa-facebook"></span>
-        <span class="fa fa-2x fa-birthday-cake"></span>
-        <span class="fa fa-2x fa-flag"></span>
-        <span class="fa fa-2x fa-tencent-weibo"></span>
+    <div class="row app-call">
+      <div class="col-lg-12 col-md-12  col-sm-12">
+        <h3>联系我们</h3>
+        <p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯
+          也可以通过以下任何方式关注我们动态</p>
+        <div class="clear">
+          <input class="email" placeholder="someone@email.com" type="text"/>
+          <input type="button" class="email-sub" value="提交"/>
+        </div>
+        <div class="logo">
+          <span class="fa fa-2x fa-facebook"></span>
+          <span class="fa fa-2x fa-birthday-cake"></span>
+          <span class="fa fa-2x fa-flag"></span>
+          <span class="fa fa-2x fa-tencent-weibo"></span>
+        </div>
       </div>
     </div>
 
     <!--底部-->
-    <div class="col-lg-12 col-md-12  col-sm-12 clearfix app-bottom">
-      <a href="#">@2106新世界</a>
-      <a class="app-top" href="#">Back to top</a>
+    <div class="row app-bottom">
+      <div class="col-lg-12 col-md-12  col-sm-12">
+        <a href="#">@2106新世界</a>
+        <a class="app-top" href="#">Back to top</a>
+      </div>
     </div>
   </div>
 
@@ -284,6 +290,8 @@
   </div>
 
 </body>
-  <script src="js/jquery-3.1.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <!--<script src="js/jquery-3.1.1.min.js"></script>-->
+  <!--<script src="js/bootstrap.js"></script>-->
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </html>

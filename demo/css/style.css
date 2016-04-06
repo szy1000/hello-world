@@ -25,6 +25,16 @@ body{
   .app-logic a.submit{
     margin: 0 auto;
   }
+  .app-banner .app-slogan h1{
+    font-size: 34px;
+  }
+  .app-banner .app-slogan h4{
+    font-size: 18px;
+  }
+  .app-banner .app-slogan a{
+    width: 40%;
+    font-size: 20px;
+  }
 }
 
 
@@ -401,9 +411,11 @@ body{
 }
 .app-logic{
   overflow: hidden;
-  padding-bottom:13% ;
+  padding-bottom:13%;
+  font-size: 0;
 }
 .app-logic input{
+  font-size: 14px;
   width: 42%;
   padding: 10px;
   margin-right: 2%;
@@ -419,20 +431,25 @@ body{
   /*height: 56px;*/
 /*}*/
 .app-logic textarea{
-  width: 87%;
+  width: 86%;
   height: 90px;
+  font-size: 14px;
   outline-color: #e74f4d;
   overflow-y: auto;
 }
-.app-logic a.submit{
+.app-logic input[type="button"]{
   display: block;
   margin-top: 2%;
-  width: 87%;
-  padding: 1% 0;
+  width: 86%;
   text-align: center;
   text-decoration: none;
   color: #323333;
   border: 1px solid #aaaaaa;
+  background-color: #ffffff;
+}
+.app-logic input[type="button"]:hover{
+  color: #ffffff;
+  background-color: #e74f4d;
 }
 .app-logic a.submit:hover{
   color: #ffffff;
@@ -458,9 +475,17 @@ body{
   width: 40%;
 }
 .app-call .email-sub{
-  padding: 9px 20px;
+  border: none;
+  margin-top: 3%;
+  padding: 8px 20px;
   color: #ffffff;
   background-color: #6f7178;
+}
+.app-call .clear{
+  font-size: 0;
+}
+.app-call .clear input{
+  font-size: 14px;
 }
 .app-call .logo{
   margin-bottom: 6%;
